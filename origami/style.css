@@ -1,0 +1,28 @@
+.p{
+    border: solid;
+    border-color: rgb(26, 153, 192);
+    background-color: #84ffd0;
+    padding-bottom: 30px;
+}
+
+.p h2{
+    opacity: 0;
+}
+
+.p:hover h2{
+    opacity: 1;
+}
+
+.p:hover img{
+    opacity: 0.5;
+}
+
+.p1{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background-color: #c484ff;
+    border: solid;
+}
